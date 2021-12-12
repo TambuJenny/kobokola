@@ -1,86 +1,35 @@
 $link: 2.3vh;
 $orage: rgb(223, 94, 8);
 $black: rgb(24, 24, 24);
+$padding:10vh;
+$background: rgb(240, 240, 240);
 
 
-header
-{
- 
- border-bottom: 1px solid $black;
- height: 10vh;
-   
-  .compheader
-  {
-   display: flex;
-   align-items: center;
-   padding-left: 5vh;
-   padding-right: 5vh;
-   
-   
-   .logo
-   {
-    flex:15
-   }
-
-   .links
-   {
-    flex: 70;
-    display: flex;
-    justify-content: space-evenly;
-
-    padding-right: 85vh;
- 
-    p
-    {
-     font-size: $link;
-    }
-    
-    
-   }
-   .outro
-   {
-    flex: 10;
-    p{
-     font-size: $link;
-    }
-   }
-  }
-}
 
 body
 {
 
+ 
 
-.compbodytop
+.Body
+{
+  .compbodytop
 {
  display: flex;
  height: 90vh;
 
- .separator
- {
-  position: absolute;
-  left:50%;
-  top:30%;
-  .ligne
-  {
-   background-color: $black;
-   height: 1vh;
-   width: 20vh;
-   
-  }
- }
+
  .title
  {
-  padding-top: vh;
-   margin-left: 5vh;
-   margin-right: 5vh;
+   padding-top: 5vh;
+   padding-left: $padding;
    flex: 50;
    
    h2
    {
-    font-size: 6.3em;
-    padding-right: 5vh;
-    padding-bottom: 0;
+    font-size: 4.5em;
+    padding-right: 25vh;
+    padding-bottom: 5vh;
     margin-bottom: 0;
     color:$black;
    }
@@ -89,7 +38,7 @@ body
    {
     display: flex;
     justify-content: space-between;
-    padding-right: 70vh;
+    padding-right: 60vh;
    }
  }
  .slider
@@ -136,5 +85,20 @@ body
 }
 
 }
+}
 
+}
+
+.separator
+{
+ position: absolute;
+ left:50%;
+ top:30%;
+ .ligne
+ {
+  background-color: $black;
+  height: 1vh;
+  width: 20vh;
+  
+ }
 }
