@@ -1,0 +1,71 @@
+$link: 2.3vh;
+$orage: rgb(223, 94, 8);
+
+
+header
+{
+ 
+ border-bottom: 1px solid #000;
+ height: 10vh;
+   
+  .compheader
+  {
+   display: flex;
+   align-items: center;
+   padding-left: 5vh;
+   padding-right: 5vh;
+   
+   
+   .logo
+   {
+    flex:15
+   }
+
+   .links
+   {
+    flex: 70;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-right: 85vh;
+ 
+    p
+    {
+     font-size: $link;
+    }
+    
+    
+   }
+   .outro
+   {
+    flex: 10;
+    p{
+     font-size: $link;
+    }
+   }
+  }
+}
+
+body
+{
+
+
+.compbodytop
+{
+ display: flex;
+ height: 60vh;
+
+ flex: 50;
+ .title
+ {
+   margin-left: 5vh;
+   margin-right: 5vh;
+   
+   padding-right: 120vh;
+   h2
+   {
+    font-size: 4.5em;
+   }
+ }
+}
+}

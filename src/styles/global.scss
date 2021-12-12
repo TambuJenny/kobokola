@@ -1,0 +1,40 @@
+@font-face
+{
+ font-family:'Bauziet Wide Regular';
+ src: local('Bauziet Wide Regular'), url('../Fonts/Bauziet/BauzietWideRegular.ttf') format('truetype');
+}
+@font-face {
+ font-family:'Montserrat' ;
+ src: local('Montserrat'), url('../Fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+
+
+html
+{
+  
+  background-color: rgb(230, 230, 230);
+
+ h1,h2,h3,h4,h5
+ {
+  font-family: 'Bauziet Wide Regular', Tahoma, sans-serif;
+ }
+ p,a,li,label,i
+ {
+  font-family: 'Montserrat', Tahoma, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+
+ }
+ 
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
