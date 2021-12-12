@@ -1,11 +1,12 @@
 $link: 2.3vh;
 $orage: rgb(223, 94, 8);
+$black: rgb(24, 24, 24);
 
 
 header
 {
  
- border-bottom: 1px solid #000;
+ border-bottom: 1px solid $black;
  height: 10vh;
    
   .compheader
@@ -53,19 +54,87 @@ body
 .compbodytop
 {
  display: flex;
- height: 60vh;
+ height: 90vh;
 
- flex: 50;
+ .separator
+ {
+  position: absolute;
+  left:50%;
+  top:30%;
+  .ligne
+  {
+   background-color: $black;
+   height: 1vh;
+   width: 20vh;
+   
+  }
+ }
  .title
  {
+  padding-top: vh;
    margin-left: 5vh;
    margin-right: 5vh;
+   flex: 50;
    
-   padding-right: 120vh;
    h2
    {
-    font-size: 4.5em;
+    font-size: 6.3em;
+    padding-right: 5vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color:$black;
+   }
+
+   .outro  
+   {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70vh;
    }
  }
+ .slider
+ {
+  flex: 40;
+  border-bottom: 1px solid $black;
+  border-left: 1px solid $black;
+  height: 100%;
+  overflow: hidden;
+
+  img
+  {
+   overflow: hidden;
+   width: 100%;
+  max-height: 100%;
+  }
+ 
+ }
 }
+.compbodybutton
+{
+ height: 100vh;
+ display: flex;
+ .card
+{
+ height: 70vh;
+ flex:30;
+ padding: 5vh;
+ .card-title
+ {
+ 
+  display: flex;
+  padding-bottom: 20vh;
+  font-size: $link;
+  p
+  {
+   text-align: justify ;
+  }
+ }
+ .card-body
+ {
+
+ }
+}
+
+}
+
 }

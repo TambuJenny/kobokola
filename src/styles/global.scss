@@ -8,7 +8,8 @@
  src: local('Montserrat'), url('../Fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
 }
 
-
+$orage: rgb(223, 94, 8);
+$black: rgb(24, 24, 24);
 
 html
 {
@@ -36,5 +37,14 @@ body
   padding: 0;
 }
 
+.bordereffect
+{
+  border:1px solid $black;
+}
+
+.card:hover
+{
+  background-color:$orage;
+}
 
 
