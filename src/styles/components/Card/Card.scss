@@ -1,0 +1,45 @@
+$link: 2.3vh;
+$orage: rgb(223, 94, 8);
+$black: rgb(24, 24, 24);
+$padding:10vh;
+$background: rgb(240, 240, 240);
+
+
+
+
+.card
+{
+ height: 100vh;
+ flex:30;
+ padding-top: 5vh;
+ padding-right: 5vh;
+ padding-left: 8vh;
+ overflow: hidden;
+ .card-title
+ {
+ 
+  display: flex;
+  font-size: $link;
+  text-transform: uppercase;
+  padding-top: 4vh;
+  width: 350px;
+  
+  p
+  {
+   text-align: justify ;
+  }
+ }
+ .card-body
+ {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 25vh;
+   h1 {
+    overflow: hidden;
+    font-size: 8vh;
+    
+   }
+ }
+}

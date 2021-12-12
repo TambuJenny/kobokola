@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import womenHappy from './../img/index/testeadadada.png';
 import { Header } from "../components/Header/Header";
 import '../styles/pages/index.scss'
+import { Card } from "../components/Card/Card";
+import { Video } from "../components/Video/Video";
 
 export function Index()
 {
@@ -11,7 +13,6 @@ export function Index()
      <div className="separator">
        <div className="ligne"></div>
       </div>
-   
    <body>
     <Header/>
 
@@ -30,43 +31,33 @@ export function Index()
       </div>
   </div>
   <div className="compbodybutton">
-   <div className="card ">
- <div className="card-title">
-  <p>OLA MUNDO</p>
-  <img src="" alt="" />
- </div>
- <div className="card-body">
-
- </div>
-   </div>
-   <div className="card bordereffect">
- <div className="card-title">
-  <p>OLA MUNDO</p>
-  <img src="" alt="" />
- </div>
- <div className="card-body">
-
- </div>
-   </div>
-   <div className="card bordereffect">
- <div className="card-title">
-  <p>OLA MUNDO</p>
-  <img src="" alt="" />
- </div>
- <div className="card-body">
-
- </div>
-   </div>
-   <div className="card bordereffect">
- <div className="card-title">
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, inventore porro ratione cum amet autem nemo laboriosam sunt suscipit esse commodi accusamus.</p>
-  <img src="" alt="" />
- </div>
- <div className="card-body">
-     <h1>Melhorar o que esta mal</h1>
- </div>
-   </div>
+   
+  <Card 
+  border={true} 
+  description="Saber mais sobre nós. O que queremos ?" 
+  title="KOBOKOLA"
+  button= {true}
+   ></Card>
+    <Card 
+  border={true} 
+  description="Investir na educação de meninas é investir no futuro de uma nação. " 
+  title="500"
+  button= {true}
+   ></Card>
+    <Card 
+  border={true} 
+  description="Saber mais sobre nós. O que queremos ?" 
+  title="KOBOKOLA"
+  button= {true}
+   ></Card> 
+  
+  
+  
   </div>
+      <div className="video">
+        <Video></Video>
+      </div>
+
    </div>
 
    </body>

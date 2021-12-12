@@ -9,8 +9,6 @@ $background: rgb(240, 240, 240);
 body
 {
 
- 
-
 .Body
 {
   .compbodytop
@@ -21,7 +19,7 @@ body
 
  .title
  {
-   padding-top: 5vh;
+   padding-top: 2vh;
    padding-left: $padding;
    flex: 50;
    
@@ -38,7 +36,7 @@ body
    {
     display: flex;
     justify-content: space-between;
-    padding-right: 60vh;
+    padding-right: 65vh;
    }
  }
  .slider
@@ -62,27 +60,7 @@ body
 {
  height: 100vh;
  display: flex;
- .card
-{
- height: 70vh;
- flex:30;
- padding: 5vh;
- .card-title
- {
- 
-  display: flex;
-  padding-bottom: 20vh;
-  font-size: $link;
-  p
-  {
-   text-align: justify ;
-  }
- }
- .card-body
- {
 
- }
-}
 
 }
 }
