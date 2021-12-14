@@ -1,0 +1,35 @@
+$link: 2.3vh;
+$orage: rgb(223, 94, 8);
+$black: rgb(24, 24, 24);
+$padding:10vh;
+$background: rgb(240, 240, 240);
+
+.bodyvideo
+{
+ height: 50vh;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ background-color: $black;
+
+ .outro
+ {
+  padding: 5vh;
+  h1{
+   color:$orage;
+  }
+  p
+  {
+   color:$background;
+  }
+ }
+
+ video
+ {
+  
+  width: 70%;
+  height: auto;
+
+ }
+}

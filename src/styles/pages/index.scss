@@ -58,12 +58,48 @@ body
 }
 .compbodybutton
 {
- height: 100vh;
  display: flex;
 
+}
+}
 
+.video
+{
+  height: 100vh;
+  .partenaire
+{
+  height: 50vh;
+  display: flex;
+  padding-left: $padding;
+  padding-right: $padding;
+  align-items: center;
+  flex-direction: column;
+  h2 
+  {
+    font-size: 2.5em;
+  }
+  .logo
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    img
+  {
+    max-height: 100px;
+  }
+     }
+  
+  
 }
 }
+
+footer
+{
+  height: 50vh;
+}
+
+
 
 }
 

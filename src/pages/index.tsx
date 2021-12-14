@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import womenHappy from './../img/index/testeadadada.png';
 import { Header } from "../components/Header/Header";
 import '../styles/pages/index.scss'
 import { Card } from "../components/Card/Card";
 import { Video } from "../components/Video/Video";
+import { Footer } from "../components/Footer/Footer";
+//IMGS
+import womenHappy from './../img/index/testeadadada.png';
+import unesco from './../img/index/pngegg (1).png';
+import unicef from './../img/index/download.png';
+import onu from './../img/index/pngegg.png';
+import gov from './../img/index/governoMinfin.png';
 
 export function Index()
 {
@@ -56,9 +62,23 @@ export function Index()
   </div>
       <div className="video">
         <Video></Video>
+        <div className="partenaire">
+          <h2>Partenários</h2>
+          <div className="logo">
+          <img src={unesco}/>
+          <img src={onu}/>
+          <img src={unicef}/>
+          <img src={gov}/>
+          </div>
+           
+   </div>
       </div>
 
    </div>
+  
+   <footer className =" ">
+      <Footer></Footer>
+   </footer>
 
    </body>
    </div>
